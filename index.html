@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+      
+ 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row offset-sm-1" style="float: none; margin: 0 auto;">
+
+            <section class="main col-md-7 col-sm-10  ">
+            <!-- input section -->
+            <section class="inputs">
+                <input type="text" placeholder="Enter any city..." id="cityinput">
+                <input type="submit" value="Search" id="add">
+            <button placeholder="submit" id="add"></button>
+            </section>
+
+            <!-- Display section -->
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="cityoutput"></h2>
+                    <p id="country"></p>
+                    <p id="description"></p>
+
+                    <p id="temp"></p>
+                    <p id="wind"></p> 
+                    <p id="lon"></p>
+                    <p id="lat"></p>
+                    <p>&nbsp;</p>
+                    
+
+                    <p id="date1"></p>
+                    <p id="night1"></p>
+                    <p id="day1"></p>
+
+                    <p id="date2"></p>
+                    <p id="night2"></p>
+                    <p id="day2"></p>
+                    
+
+                    <p id="date3"></p>
+                    <p id="night3"></p>
+                    <p id="day3"></p>
+                    </div>
+                <div class="wrapper2">
+                    
+                </div>
+            </section>
+            </section>
+            
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+    <div id = "sample" style = "width:580px; height:400px;"></div>
+   
+</body>
+</html>
